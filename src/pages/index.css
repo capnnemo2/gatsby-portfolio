@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
-.grid {
+.index-grid {
   display: grid;
+  grid-template-columns: 12% auto;
+}
+
+.Header {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .Nav {
+  grid-column-start: 1;
   display: grid;
-  grid-template-columns: auto;
 }
