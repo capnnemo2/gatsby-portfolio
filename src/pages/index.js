@@ -1,15 +1,15 @@
 import React from "react"
 import Header from "../components/Header"
 import Nav from "../components/Nav"
-import Footer from "../components/Footer"
+
+import "./index.css"
 
 export default function Home() {
   return (
-    <div>
+    <div className="grid">
       <Nav />
       <Header />
-      <p>Hello!</p>
-      <Footer />
+      <p className="index">Hello!</p>
     </div>
   )
 }
