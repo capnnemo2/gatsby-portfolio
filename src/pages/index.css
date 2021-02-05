@@ -18,7 +18,7 @@ body {
 .Header {
   grid-column-start: 1;
   grid-column-end: 5;
-  background-color: bisque;
+  background-color: rgb(253, 190, 113);
 }
 /* END HEADER */
 
@@ -28,7 +28,22 @@ body {
   grid-row-start: 2;
   grid-row-end: 3;
   display: grid;
-  background-color: brown;
+  /* background-color: brown; */
+}
+
+.Nav a {
+  /* border: 1px solid black; */
+  text-decoration: none;
+  text-transform: lowercase;
+  background-color: rgb(240, 240, 240);
+  color: rgb(73, 73, 73);
+  text-align: center;
+  /* font-size: large; */
+  padding: 15px;
+}
+
+.Nav a:hover {
+  background-color: rgb(230, 213, 213);
 }
 /* END NAV */
 
