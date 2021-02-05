@@ -40,6 +40,11 @@ const Index = () => {
   return (
     <Layout>
       <p>
+        Obviously this site is still in very early development so that Ben can
+        learn Gatsby. That's right, even with all that his brain contains, there
+        is room for more. Bring on the Gatsby!
+      </p>
+      <p>
         He's amazing. Seriously, you won't believe how good this guy is. But
         we're going to tell you anyway.
       </p>

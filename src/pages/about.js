@@ -10,7 +10,8 @@ export default () => (
       <span style={{ textDecoration: "line-through" }}>
         underwater basket weaving
       </span>{" "}
-      giant squid wrestling.{" "}
+      giant squid wrestling. He speaks the language of the food gods (known as
+      Italian to mortals). His dog understands quantum physics.
     </p>
   </Layout>
 )
