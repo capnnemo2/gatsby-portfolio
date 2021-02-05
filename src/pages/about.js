@@ -1,11 +1,16 @@
 import React from "react"
-import Nav from "../components/Nav"
+import Layout from "../components/Layout"
 
-export default function About() {
-  return (
-    <div>
-      <Nav />
-      <p>This is an about page</p>
-    </div>
-  )
-}
+export default () => (
+  <Layout>
+    <p>
+      This describes how awesome Ben is. For example, he rides{" "}
+      <span style={{ textDecoration: "line-through" }}>horses</span> dinosaurs
+      bareback. He spars with Chuck Norris to warm up for{" "}
+      <span style={{ textDecoration: "line-through" }}>
+        underwater basket weaving
+      </span>{" "}
+      giant squid wrestling.{" "}
+    </p>
+  </Layout>
+)

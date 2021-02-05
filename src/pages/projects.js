@@ -1,11 +1,10 @@
 import React from "react"
-import Nav from "../components/Nav"
+import Layout from "../components/Layout"
 
 export default function Projects() {
   return (
-    <div>
-      <Nav />
+    <Layout>
       <p>This is a projects page</p>
-    </div>
+    </Layout>
   )
 }
