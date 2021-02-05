@@ -4,7 +4,7 @@ import Nav from "./Nav"
 
 const Layout = props => {
   return (
-    <div className="index-grid">
+    <div className="layout-grid">
       <Header />
       <Nav />
       {props.children}
