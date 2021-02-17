@@ -1,13 +1,17 @@
-import React from "react"
+import React, {ReactNode} from "react"
 import Header from "./Header"
 import Nav from "./Nav"
 
-const Layout = props => {
+interface LayoutProps {
+  children: ReactNode
+}
+
+const Layout = (children: LayoutProps) => {
   return (
     <div className="layout-grid">
       <Header />
       <Nav />
-      {props.children}
+      {children.children}
     </div>
   )
 }

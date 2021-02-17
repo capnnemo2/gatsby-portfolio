@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Snow from "../images/snow_face.jpeg"
+// import Snow from "../images/snow_face.jpeg"
 import "./index.css"
 
 // TODO fix grid layout
@@ -19,7 +19,7 @@ const Index = () => {
           we're going to tell you anyway.
         </p>
         <p>Now we're just adding extra text to see how grid treats this div.</p>
-        <img src={Snow} alt="My face" width="400px" />
+        {/* <img src={Snow} alt="My face" width="400px" /> */}
       </div>
     </Layout>
   )

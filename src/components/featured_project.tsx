@@ -1,6 +1,14 @@
 import React from "react"
 
-export default props => {
+interface ProjectProps {
+  title: string,
+  tech_used: string[],
+  description: string,
+  screenshot: string,
+  links: {name: string, link: string}[]
+}
+
+export default (props: ProjectProps) => {
   return (
     <div className="project-box">
       <h3>{props.title}</h3>
