@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+/* TODO set color variables */
+/* :root {
+  --color-1: white;
+} */
+
 body {
   margin: 0;
 }
@@ -62,7 +67,21 @@ body {
 }
 /* END CONTENT */
 
+/* BEGIN ABOUT */
+
+/* TODO set color variables. Also, should this just be a button to email directly (like the prior portfolio) or link to contact page */
+
+.about-contact-link {
+  text-decoration: none;
+  color: purple;
+}
+
+/* END ABOUT */
+
 /* BEGIN PROJECT */
+
+/* TODO media query grid for larger screens */
+
 .project-box {
   border: 1px solid black;
   width: 80%;
@@ -79,3 +98,22 @@ body {
 }
 
 /* END PROJECT */
+
+/* BEGIN CONTACT */
+
+/* TODO need new colors, use variables */
+
+.spread {
+  justify-content: space-evenly;
+}
+
+.contact-icon {
+  font-size: 3rem;
+  color: rgb(253, 190, 113);
+}
+
+.contact-icon:hover {
+  color: purple;
+}
+
+/* END CONTACT */
